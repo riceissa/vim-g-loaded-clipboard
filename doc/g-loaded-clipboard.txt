@@ -1,0 +1,15 @@
+*g-loaded-clipboard.txt*  Easier access to *quoteplus*
+
+INTRODUCTION                                    *g-loaded-clipboard*
+
+Vim's default *quoteplus* register for accessing the system clipboard is somewhat
+tedious, and there have bee various approaches to make access easier:
+
+  * CUA keybindings with, e.g. |mswin.vim|
+  * |clipboard-unnamedplus| to make |quoteplus| the default register for yank,
+    delete, change, and put commands
+  * |<Leader>| mappings
+  * |i_CTRL-R| followed by +
+
+This plugin is in this reference class, and makes use of the prefix "g" as a
+way to make access easier.
