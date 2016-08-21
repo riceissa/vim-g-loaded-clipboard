@@ -2,8 +2,8 @@
 
 INTRODUCTION                                    *g-loaded-clipboard*
 
-Vim's default *quoteplus* register for accessing the system clipboard is somewhat
-tedious, and there have bee various approaches to make access easier:
+Vim's default *quoteplus* register for accessing the system clipboard is
+somewhat tedious, and there have been various approaches to make access easier:
 
   * CUA keybindings with, e.g. |mswin.vim|
   * |clipboard-unnamedplus| to make |quoteplus| the default register for yank,
