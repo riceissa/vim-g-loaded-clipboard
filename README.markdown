@@ -1,4 +1,4 @@
-# g-loaded-paste.vim
+# g-loaded-clipboard.vim
 
 Easier access to the `"+` register.
 
