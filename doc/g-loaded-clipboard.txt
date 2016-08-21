@@ -10,6 +10,8 @@ somewhat tedious, and there have been various approaches to make access easier:
     delete, change, and put commands
   * |<Leader>| mappings
   * |i_CTRL-R| followed by +
+  * Solutions that insert system clipboard contents one character at a time,
+    such as using CTRL-SHIFT-V (perhaps with 'paste' enabled)
 
 This plugin is in this reference class, and makes use of the prefix "g" as a
 way to make access easier.
