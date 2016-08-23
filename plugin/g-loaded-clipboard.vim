@@ -1,7 +1,7 @@
 " Easier access to "+ register. This overrides the default gp and gP, which
 " are useful but so similar to i_CTRL-R that I've only ever used the latter
 " except in mappings.
-if has('xterm_clipboard')
+if has('clipboard')
   vnoremap gy "+y
   vnoremap gp "+p
   vnoremap gP "+P
@@ -15,6 +15,9 @@ if has('xterm_clipboard')
   nnoremap gp "+p
   nnoremap gP "+P
   " Mnemonic is 'go-later paste'
+  nnoremap glp gp
+  nnoremap glP gP
+else
   nnoremap glp gp
   nnoremap glP gP
 endif
